@@ -1,0 +1,66 @@
+/* Apply a responsive design to the container */
+.container {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 600px; /* Limit the maximum width */
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif; /* Use a common font */
+}
+
+/* Style input fields */
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Add borders for better visibility */
+    border-radius: 5px; /* Add some rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Style the button */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add smooth transition effects */
+}
+
+/* Change button color on hover */
+button:hover {
+    background-color: #0053ac;
+}
+
+    #available_slots_div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .slot-container {
+        width: calc(20% - 10px); /* Adjusted width to fit 5 slots per row */
+        height: 100px;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        background-color: #28a745; /* Default color for available slots */
+    }
+
+    .slot-container:hover {
+        transform: scale(1.05);
+    }
+
