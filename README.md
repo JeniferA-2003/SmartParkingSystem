@@ -4,13 +4,7 @@ This project demonstrates a Smart Parking Monitoring System using an ESP32 micro
 
 System Overview:
 
-1.An IR sensor is connected to the ESP32 to detect the presence of a vehicle in a parking slot.
-
-2.Upon detection, the ESP32 updates the status of the slot.
-
-3.The ESP32 board connects to the internet via built-in Wi-Fi and sends data to the Arduino Cloud.
-
-4.The data is visualized through a user dashboard, displaying the real-time status of parking slots (Occupied/Vacant).
+An IR sensor is connected to the ESP32 to detect the presence of a vehicle in a parking slot.Upon detection, the ESP32 updates the status of the slot.The ESP32 board connects to the internet via built-in Wi-Fi and sends data to the Arduino Cloud.The data is visualized through a user dashboard, displaying the real-time status of parking slots (Occupied/Vacant).
 
 Project Phases:
  
@@ -77,3 +71,23 @@ Benefits:
 3.Improved Air Quality: Decreases emissions by reducing idling time.
 
 4.Remote Access: Real-time status available anywhere via cloud dashboard.
+
+Tech Stack:
+
+The project is built using the following technologies:
+
+Frontend:
+
+HTML
+
+CSS
+
+JavaScript
+
+Backend:
+
+PHP
+
+Database:
+
+MySQL
