@@ -1,4 +1,4 @@
-Smart Car Parking System using ESP32 and Arduino Cloud
+#Smart Car Parking System using ESP32 and Arduino Cloud
 This project demonstrates a Smart Parking Monitoring System using an ESP32 microcontroller, Infrared (IR) sensor, and Arduino Cloud to efficiently manage and monitor parking spaces in real-time.
  System Overview:
 1.An IR sensor is connected to the ESP32 to detect the presence of a vehicle in a parking slot.
